@@ -15,6 +15,8 @@ namespace Comp1223_2017_lesson8
     {
         static void Main(string[] args)
         {
+            Superhuman superhuman = new Comp1223_2017_lesson8.Superhuman("superdude");
+            superhuman.Powers.Add(new Power("Spider Climbing", 50));
         }
     }
 }

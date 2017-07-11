@@ -15,6 +15,7 @@ namespace Comp1223_2017_lesson8
         //private instance variables
         private List<Power> _Powers;
         //public properties
+        public List<Power> _powers { get; }
         //constructors
         public Superhuman(string name):base(name)
         {

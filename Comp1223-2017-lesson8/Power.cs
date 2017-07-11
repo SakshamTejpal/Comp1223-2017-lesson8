@@ -20,5 +20,10 @@ namespace Comp1223_2017_lesson8
         public string Name { get; set; }
         public int rank { get; set; }
         //constructor
+        public Power(string name, int rank)
+        {
+            name = Name;
+            this.rank = rank;
+        }
     }
 }
